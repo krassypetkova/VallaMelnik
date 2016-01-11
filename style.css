@@ -1,0 +1,72 @@
+#site-header {
+    position: relative;
+}
+
+#site-header > #header-gradient{
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.76+0,0+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.76) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.76) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.76) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+#header-navbar {
+    position: absolute;
+    top: 0;
+}
+
+#site-header > #header-background {
+    width: 100%;
+}
+
+#site-logo {
+    width: 20%;
+}
+
+/******************* BEST WINES **********************/
+
+#best-wines img {
+    width: 20px;
+    height: 70px;
+}
+
+/******************* MORE INFO **********************/
+#more-info {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,f4f4f4+0,f4f4f4+50,d43958+50,d43958+50,d43958+100 */
+    background: rgb(244,244,244); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(244,244,244,1) 0%, rgba(244,244,244,1) 0%, rgba(244,244,244,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 0%,rgba(244,244,244,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 0%,rgba(244,244,244,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#d43958',GradientType=1 ); /* IE6-9 */
+
+}
+/*
+#more-info > #more-about-us {
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+#more-info > #email-us {
+    background-color: #D43958;
+    height: 100%;
+}*/
+
+#more-info > div {
+}
+
+#more-info img {
+    width: 20px;
+    height: 70px;
+}
+
+
+/******************* MOST INTERESTING **********************/
+
+#most-interesting img{
+    width: 300px;
+}
