@@ -1,5 +1,14 @@
-html {
+html, body {
     box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.yellow-text {
+    color: #C09611;
 }
 
 /**********************************************/
@@ -40,13 +49,12 @@ html {
     width: 100%;
     height: 4%;
     background-color: rgba(192,156,76,0.5);
-    z-index: 1;
 }
 
 /******************* BEST WINES **********************/
 #best-wines {
-    position: relative;
     padding: 80px 0;
+    position: relative;
 }
 
 #best-wines img {
@@ -110,6 +118,84 @@ html {
     background-color: #CEA311;
     color: white;
 }
+/******************* SUBSCRIBE **********************/
+#subscribe {
+    text-align: center;
+    color: #fff;
+}
+
+#subscribe-background {
+    position: relative;
+    background-image: url("images/call-to-action.jpg");
+    padding: 35px 0;
+    background-position: 0;
+    background-size: cover;
+}
+#subscribe-background > p {
+    padding: 5px 0;
+}
+
+#subscribe-background > form {
+    padding: 15px 0;
+}
+
+#subscribe-background > form > input[type=text]:placeholder-shown {
+
+}
+#subscribe-background > form > input[type=text] {
+    width: 30%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    padding: 8px 10px 5px;
+    background: rgba(255,255,255,0.5);
+    font-size: 1.7rem;
+}
+
+#subscribe-background > form > button {
+    background-color: #D43958;
+    padding: 5px 17px;
+    margin-left: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+
+#subscribe-background > p.message-above-header {
+    font-size: 2rem;
+}
+
+#subscribe-background > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#subscribe-background > p.message-below-header {
+    font-size: 0.95rem;
+}
+#subscribe-background-line {
+    height: 5%;
+    background-color: rgba(255,255,255, 0.2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#subscribe-message {
+    background-color: #243444;
+    padding: 30px;
+}
+#subscribe-message > h1 {
+    margin-bottom: 10px;
+
+}
+
+#subscribe-message > p {
+    font-size: 2rem;
+}
+
 /******************* MORE INFO **********************/
 #more-info {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,f4f4f4+0,f4f4f4+50,d43958+50,d43958+50,d43958+100 */
