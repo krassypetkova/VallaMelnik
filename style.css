@@ -11,6 +11,17 @@ h1, p {
     color: #C09611;
 }
 
+.grey-text {
+    color: #B2B2AA;
+}
+
+button {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+
 /**********************************************/
 #site-header {
     position: relative;
@@ -139,9 +150,6 @@ h1, p {
     padding: 15px 0;
 }
 
-#subscribe-background > form > input[type=text]:placeholder-shown {
-
-}
 #subscribe-background > form > input[type=text] {
     width: 30%;
     border-top: 0;
@@ -157,10 +165,6 @@ h1, p {
     background-color: #D43958;
     padding: 5px 17px;
     margin-left: 10px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 2px solid rgba(255,255,255,0.5);
 }
 
 #subscribe-background > p.message-above-header {
@@ -198,6 +202,7 @@ h1, p {
 
 /******************* MORE INFO **********************/
 #more-info {
+    padding: 50px 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,f4f4f4+0,f4f4f4+50,d43958+50,d43958+50,d43958+100 */
     background: rgb(244,244,244); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(244,244,244,1) 0%, rgba(244,244,244,1) 0%, rgba(244,244,244,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 100%); /* FF3.6-15 */
@@ -206,27 +211,58 @@ h1, p {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#d43958',GradientType=1 ); /* IE6-9 */
 
 }
-/*
-#more-info > #more-about-us {
-    background-color: #f4f4f4;
-    height: 100%;
+
+#more-about-us > h1 {
+    font-size: 3.1rem;
+    font-weight: bold;
 }
 
-#more-info > #email-us {
-    background-color: #D43958;
-    height: 100%;
-}*/
-
-#more-info > div {
+#more-about-us > h1 > span.underline {
+    padding-bottom: 10px;
 }
 
-#more-info img {
-    width: 20px;
-    height: 70px;
+#more-about-us > p {
+    margin: 60px 0 30px;
+    font-size: 2rem;
 }
 
+#more-about-us > button {
+    background-color: #243444;
+    color: #fff;
+    padding: 10px 20px 8px;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
 
-/******************* MOST INTERESTING **********************/
+#email-us {
+    color: #fff;
+    text-align: right;
+    margin-top: -30px;
+}
+#email-us > img {
+    width: 500px;
+}
+#email-us > h1 {
+    font-size: 4.5rem;
+}
+#email-us > p {
+    font-size: 2.2rem;
+    margin: 10px 0 30px;
+}
+
+#email-us > button {
+    background-color: #fff;
+    color: #D43958;
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding: 10px 20px 8px;
+}
+
+    /******************* MOST INTERESTING **********************/
+
+#most-interesting {
+    padding: 50px 0;
+}
 
 #most-interesting img{
     width: 300px;
