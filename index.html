@@ -5,6 +5,7 @@
     <title>Villa Melnik</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -18,21 +19,21 @@
                     <span>VILLA MELNIK</span>
                 </a>
 
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" style="width: 100%" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active hvr-underline-reveal"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-                        <li class="hvr-underline-from-center"><a href="#">ЗА НАС</a></li>
-                        <li class="hvr-underline-from-center"><a href="#">ВИНОТО</a></li>
-                        <li class="hvr-underline-from-center"><a href="#">ВИНАРНАТА</a></li>
-                        <li class="hvr-underline-from-center"><a href="#">НОВИНИ</a></li>
-                        <li class="hvr-underline-from-center"><a href="#">КОНТАКТИ</a></li>
+                        <li class="hvr-fade"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                        <li class="hvr-fade"><a href="#">ЗА НАС</a></li>
+                        <li class="active hvr-fade"><a href="#">ВИНОТО</a></li>
+                        <li class="hvr-fade"><a href="#">ВИНАРНАТА</a></li>
+                        <li class="hvr-fade"><a href="#">НОВИНИ</a></li>
+                        <li class="hvr-fade"><a href="#">КОНТАКТИ</a></li>
                     </ul>
                 </div>
             </div>
@@ -133,55 +134,67 @@
             </div>
         </div>
     </section>
-    <footer class="row" style="background-color: #939393">
-        <div class="col-md-3 col-sm-3">
-            <div>
-                <h5>GPS КООРДИНАТИ:</h5>
-                <p>41°28'25" N 23°23'19'' E</p>
-                <p>тел: +359 884 840 320; +359 888 007266</p>
-            </div>
-            <div>
-                <h5>ОФИС-СОФИЯ</h5>
-                <p>ул. Буная №4</p>
-                <p>тел: (+359) 888 923 703</p>
+    <footer id="site-footer">
+        <div class="footer-top-line"></div>
+        <div id="spacer"></div>
+        <div id="footer-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div>
+                            <h5 class="margin-bottom">GPS КООРДИНАТИ:</h5>
+                            <p class="footer-color">41°28'25" N 23°23'19'' E</p>
+                            <p class="footer-color">тел: +359 884 840 320; +359 888 007266</p>
+                        </div>
+                        <div>
+                            <h5 class="margin-bottom">ОФИС-СОФИЯ</h5>
+                            <p class="footer-color">ул. Буная №4</p>
+                            <p class="footer-color">тел: (+359) 888 923 703</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div>
+                            <h5 class="margin-bottom">СОФИЯ</h5>
+                            <p class="footer-color">тел.: +359 878 442262,</p>
+                            <p class="footer-color">тел.: +359 884 923703</p>
+                        </div>
+                        <div>
+                            <h5 class="margin-bottom">ЮГОЗАПАДНА БЪЛГАРИЯ</h5>
+                            <p class="footer-color-yellow">тел.: +359 882 444386,</p>
+                            <p class="footer-color-yellow">тел.: +359 887 506002</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div>
+                            <p class="margin-bottom">София |  <span class="footer-color">тел.: +359 756 444</span></p>
+                            <p class="margin-bottom">Пловдив |  <span class="footer-color">тел.: +359 878 872 928</span></p>
+                            <p class="margin-bottom">Варна |  <span class="footer-color">тел.: +359 888 220 271</span></p>
+                            <p class="margin-bottom">Добрич |  <span class="footer-color">тел.: +359 887 264 940</span></p>
+                            <p class="margin-bottom">Стара Загора |  <span class="footer-color">тел.: +359 889 007 270</span></p>
+                            <p class="margin-bottom">Благоевград, Банско |  <span class="footer-color">тел.: +359 887 506 002</span></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div>
+                            <p class="margin-bottom"><i class="fa fa-facebook"></i><span> | </span><span class="footer-color">Facebook</span></p>
+                            <p class="margin-bottom"><i class="fa fa-twitter"></i><span> | </span><span class="footer-color">Twitter</span></p>
+                            <p class="margin-bottom"><i class="fa fa-google-plus"></i><span> | </span><span class="footer-color">Google+</span></p>
+                            <p class="margin-bottom"><i class="fa fa-linkedin"></i><span> | </span><span class="footer-color">LinkedIn</span></p>
+                            <p class="margin-bottom"><i class="fa fa-tripadvisor"></i><span> | </span><span class="footer-color">TripAdvisor</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cpy-right">
+                    <div class="container">
+                        <img class="acorn-logo" src="images/acorn-logo.png" width="80px" alt=""/>
+                        <p class="cpy-right-p">CR &copy; 2016 Villa Melnik. Всички права запазени.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-sm-3">
-            <div>
-                <h5>СОФИЯ</h5>
-                <p>тел.: +359 878 442262,</p>
-                <p>тел.: +359 884 923703</p>
-            </div>
-            <div>
-                <h5>Югозападна България</h5>
-                <p>тел.: +359 882 444386,</p>
-                <p>тел.: +359 887 506002</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <div>
-                <p><span>София |</span>тел.: +359 756 444</p>
-                <p><span>Пловдив |</span>тел.: +359 878 872 928</p>
-                <p><span>Варна |</span>тел.: +359 888 220 271</p>
-                <p><span>Добрич |</span>тел.: +359 887 264 940</p>
-                <p><span>Стара Загора |</span>тел.: +359 889 007 270</p>
-                <p><span>Благоевград, Банско |</span>тел.: +359 887 506 002</p>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-3">
-            <div>
-                <p><img src="images/facebook43.png" alt=""/><span> |</span>Facebook</p>
-                <p><img src="images/twitter35.png" alt=""/><span> |</span>Twitter</p>
-                <p><img src="images/google109.png" alt=""/><span> |</span>Google+</p>
-                <p><img src="images/linkedin20.png" alt=""/><span> |</span>LinkedIn</p>
-                <p><img src="images/tripadvisor.png" alt=""/><span> |</span>TripAdvisor</p>
-            </div>
-        </div>
-
+        <div class="footer-bottom-line"></div>
     </footer>
-    <!--
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    -->
 </body>
 </html>
