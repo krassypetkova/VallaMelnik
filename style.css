@@ -172,7 +172,6 @@ button {
 }
 
 #subscribe-background {
-    height:;
     position: relative;
     background-image: url("images/Rectangle 1 copy 11.jpg");
     padding: 35px 0;
@@ -238,19 +237,38 @@ button {
 }
 
 /******************* MORE INFO **********************/
-#more-info {
-    padding: 50px 0;
+@media (min-width: 768px) {
+    #more-info {
+        padding: 25px 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4f4f4+0,f4f4f4+0,f4f4f4+50,d43958+50,d43958+50,d43958+100 */
     background: rgb(244,244,244); /* Old browsers */
     background: -moz-linear-gradient(left,  rgba(244,244,244,1) 0%, rgba(244,244,244,1) 0%, rgba(244,244,244,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 50%, rgba(212,57,88,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 0%,rgba(244,244,244,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right,  rgba(244,244,244,1) 0%,rgba(244,244,244,1) 0%,rgba(244,244,244,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 50%,rgba(212,57,88,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#d43958',GradientType=1 ); /* IE6-9 */
+    }
 
+    #more-about-us {
+        text-align: left;
+    }
+
+    #email-us > img {
+        margin-top: -30px;
+    }
+    #email-us {
+        text-align: right;
+    }
+}
+#more-info {
+    text-align: center;
+}
+
+#more-about-us, #email-us {
+    padding: 30px;
 }
 
 #more-about-us > h1 {
-    font-size: 3.1rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -273,14 +291,13 @@ button {
 
 #email-us {
     color: #fff;
-    text-align: right;
-    margin-top: -30px;
+    background-color: #D43958;
 }
 #email-us > img {
-    width: 500px;
+    width: 100%;
 }
 #email-us > h1 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 #email-us > p {
     font-size: 2.2rem;
