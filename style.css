@@ -145,7 +145,6 @@ button {
 /* Fade */
 #best-wines > .row > div:hover p.hvr-fade,
 .hvr-fade {
-    display: inline-block;
     vertical-align: middle;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -174,7 +173,7 @@ button {
 #subscribe-background {
     position: relative;
     background-image: url("images/Rectangle 1 copy 11.jpg");
-    padding: 35px 0;
+    padding: 35px 10px;
     background-position: 0;
     background-size: cover;
 }
@@ -183,11 +182,11 @@ button {
 }
 
 #subscribe-background > form {
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 #subscribe-background > form > input[type=text] {
-    width: 22%;
+    width: 30%;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -199,8 +198,10 @@ button {
 
 #subscribe-background > form > button {
     background-color: #D43958;
-    padding: 5px 17px;
+    padding: 8px 25px;
     margin-left: 10px;
+    vertical-align: bottom;
+    margin-top: 15px;
 }
 
 #subscribe-background > p.message-above-header {
@@ -220,6 +221,7 @@ button {
     background-color: rgba(255,255,255, 0.2);
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -234,6 +236,18 @@ button {
 
 #subscribe-message > p {
     font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    #subscribe-background > form > input[type=text] {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #subscribe-background > form > input[type=text] {
+        width: 22%;
+    }
 }
 
 /******************* MORE INFO **********************/
@@ -264,7 +278,7 @@ button {
 }
 
 #more-about-us, #email-us {
-    padding: 30px;
+    padding: 30px 15px;
 }
 
 #more-about-us > h1 {
