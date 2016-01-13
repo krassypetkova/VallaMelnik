@@ -298,11 +298,11 @@ button {
 /******************* MOST INTERESTING **********************/
 
 #most-interesting {
-    padding: 70px 0;
+    padding: 70px 10px;
 }
 
 #most-interesting img{
-    width: 254px;
+    width: 90%;
 }
 
 .col-divs {
@@ -321,11 +321,9 @@ button {
     font-size: 21px;
     color: #CEA922;
     font-style: italic;
+    margin-bottom: 70px;
 }
 
-#most-interesting div.row {
-    margin-top: 70px;
-}
 .border-left-div {
     border-left: 2px solid  #CEA311;
     padding-left: 15px;
