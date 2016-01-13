@@ -137,7 +137,7 @@ button {
 
 .border-left-p {
     padding-left: 10px;
-    border-left: 3px solid #CEA311;
+    border-left: 2px solid #CEA311;
     font-size: 13px;
     color: #4A4A4A;
 }
@@ -172,8 +172,9 @@ button {
 }
 
 #subscribe-background {
+    height:;
     position: relative;
-    background-image: url("images/call-to-action.jpg");
+    background-image: url("images/Rectangle 1 copy 11.jpg");
     padding: 35px 0;
     background-position: 0;
     background-size: cover;
@@ -187,7 +188,7 @@ button {
 }
 
 #subscribe-background > form > input[type=text] {
-    width: 30%;
+    width: 22%;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -297,21 +298,85 @@ button {
 /******************* MOST INTERESTING **********************/
 
 #most-interesting {
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 #most-interesting img{
-    width: 300px;
+    width: 254px;
 }
 
-/******************* FOOTER **********************/
+.col-divs {
+    padding: 15px;
+}
+
+#most-interesting-h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #676767;
+    margin-bottom: 12px;
+}
+
+#most-interesting-p {
+    text-align: center;
+    font-size: 21px;
+    color: #CEA922;
+    font-style: italic;
+}
+
+#most-interesting div.row {
+    margin-top: 70px;
+}
+.border-left-div {
+    border-left: 2px solid  #CEA311;
+    padding-left: 15px;
+    margin-bottom: 17px;
+}
+
+.short-h5 {
+    color: #656565;
+    font-size: 17px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.subtitle-p {
+    font-size: 15px;
+}
+.most-p {
+    color: #6B6B6B;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* Glow */
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+
+    /******************* FOOTER **********************/
 
 #site-footer {
     height: 550px;
     position: relative;
-    background: url("images/footer.jpg");
+    background-image: url("images/footer.jpg");
     background-size: cover;
-    background-position: 0px;
+    background-position: 55%;
+
 }
 
 #spacer {
