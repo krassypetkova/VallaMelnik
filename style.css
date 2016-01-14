@@ -31,6 +31,10 @@ button {
     border-bottom: 2px solid rgba(255,255,255,0.5);
 }
 
+.margin-top-30 {
+    margin-top: 30px;
+}
+
 /***************** HEADER *****************************/
 #site-header {
     position: relative;
@@ -54,14 +58,16 @@ button {
     position: absolute;
     top: 0;
     width: 100%;
+    border: 0;
 }
 
 #header-navbar div.collapse.navbar-collapse {
     float: right;
 }
-
-#header-navbar div.collapse.navbar-collapse.in {
-    float: none;
+@media (max-width: 768px) {
+    #header-navbar div.collapse.navbar-collapse.in {
+        float: none;
+    }
 }
 
 #header-navbar a,#header-navbar button {
@@ -83,12 +89,35 @@ button {
     border-bottom: 1px solid #CEA311;;
 }
 
+#header-navbar .navbar-header {
+    padding-left: 15px;
+}
+
+#header-navbar .navbar-header a {
+    text-decoration: none;
+}
+
+#header-navbar .navbar-header button {
+    margin-top: 13px;
+}
+
+#navbar {
+    padding-top: 10px;
+}
+
 #site-header > #header-background {
     width: 100%;
+    min-height: 280px;
 }
 
 #site-logo {
-    width: 8%;
+    width: 75px;
+}
+
+#site-title {
+    font-weight: bold;
+    vertical-align: sub;
+    margin-left: 10px;
 }
 
 #header-bottom-line {
@@ -160,7 +189,8 @@ button {
 }
 
 #best-wines > .row > div:hover p.hvr-fade,
-.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active
+/*#header-navbar .nav.navbar-nav > li.active*/ {
     background-color: #CEA311;
     color: white;
 }
@@ -400,16 +430,20 @@ button {
     /******************* FOOTER **********************/
 
 #site-footer {
-    height: 550px;
     position: relative;
     background-image: url("images/footer.jpg");
-    background-size: cover;
-    background-position: 55%;
-
+    background-position: center;
+    background-size: 178% auto;
 }
 
 #spacer {
-    height: 50%;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    #spacer {
+        height: 0;
+    }
 }
 
 #footer-info {
@@ -425,7 +459,7 @@ button {
     height: 3%;
     background-color: rgba(255,255,255, 0.4);
     position: absolute;
-    top: 0px;
+    top: 0;
     width: 100%;
 }
 
@@ -433,7 +467,7 @@ button {
     height: 3%;
     background-color: rgba(53, 63, 65, 0.7);
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
 }
 
@@ -443,17 +477,36 @@ button {
 
 .cpy-right {
     font-size: 12px;
+    margin-top: 40px;
 }
 
 .acorn-logo {
     float: right;
+    position: relative;
+    bottom: 11px;
 }
 
 div.cpy-right > div.container {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .cpy-right-p {
     display: inline-block;
+}
+
+#footer-info .fa {
+    font-size: 18px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+#footer-info  .row > div {
+    padding: 10px 15px;
+}
+
+@media (max-width: 400px) {
+    #footer-info  .row > div {
+        width: 100%;
+    }
 }
