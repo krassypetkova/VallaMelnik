@@ -12,31 +12,6 @@
     <header id="site-header">
         <div id="header-gradient"></div>
         <img id="header-background" src="images/header.jpg" alt="HeaderBackground"/>
-        <!--<nav id="header-navbar" class="navbar navbar-static-top" role="navigation">
-            <div class="container">
-                <a href="#">
-                    <img id="site-logo" alt="VillaMelnikLogo" src="images/villa-melnik-logo-gold-transparent.png">
-                    <span>VILLA MELNIK</span>
-                </a>
-
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                &lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hvr-fade"><a href="#">ЗА НАС</a></li>
-                        <li class="active hvr-fade"><a href="#">ВИНОТО</a></li>
-                        <li class="hvr-fade"><a href="#">ВИНАРНАТА</a></li>
-                        <li class="hvr-fade"><a href="#">НОВИНИ</a></li>
-                        <li class="hvr-fade"><a href="#">КОНТАКТИ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>-->
         <nav id="header-navbar" class="navbar">
             <div class="container">
                 <div class="navbar-header">
@@ -70,28 +45,26 @@
         <p class="best-wines-p">Cras dapibus. Vivamus elementum semper Aenean valputate<br>eleifend tellus.
             Aenean leo ligula, porttitor eu, consequat vitae</p>
         <div class="row">
-            <div class="col-md-1 col-sm-0 col-xs-0"></div>
-            <div class="col-md-2 col-sm-4 col-xs-6">
-                <img src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
+            <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6">
+                <img class="grow" src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
                 <p class="border-left-p hvr-fade">Серия елитни вина AplauZ в бутилки</p>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6">
-                <img src="images/Bergule_Rose_Melnik55_2013_big.jpg" alt=""/>
+                <img class="grow" src="images/Bergule_Rose_Melnik55_2013_big.jpg" alt=""/>
                 <p class="border-left-p hvr-fade">Бутилки<br>с марка Bergulé</p>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6">
-                <img src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
+                <img class="grow" src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
                 <p class="border-left-p hvr-fade">Серия "Villa Melnik Family Tradition"</p>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6">
-                <img src="images/Bergule_Rose_Melnik55_2013_big.jpg" alt=""/>
-                <p class="border-left-p hvr-fade">Бутилки<br>с марка МЕЛЕНИК</p>
+                <img class="grow" src="images/Bergule_Rose_Melnik55_2013_big.jpg" alt=""/>
+                <p class="border-left-p hvr-fade">Бутилки<br>с марка МЕЛНИК</p>
             </div>
             <div class="col-md-2 col-sm-4 col-xs-6">
-                <img src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
-                <p class="border-left-p hvr-fade">Бутилки<br>с марка МЕЛЕНИК</p>
+                <img class="grow" src="images/Bergule_Melnik55_2011_big.jpg" alt=""/>
+                <p class="border-left-p hvr-fade">Бутилки<br>с марка МЕЛНИК</p>
             </div>
-            <div class="col-md-1 col-sm-0 col-xs-0"></div>
         </div>
     </section>
     <section id="subscribe">
@@ -222,7 +195,21 @@
         </div>
         <div class="footer-bottom-line"></div>
     </footer>
+
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+    <script src="bower_components/scrollmagic/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js"></script>
+<!--    <script>
+        var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+        // build scenes
+        new ScrollMagic.Scene({triggerElement: "#subscribe-background"})
+                .setTween("subscribe-background", {y: "80%", ease: "linear"})
+                .addIndicators()
+                .addTo(controller);
+    </script>-->
 </body>
 </html>
