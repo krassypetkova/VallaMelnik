@@ -1,3 +1,39 @@
+html, body {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.yellow-text {
+    color: #C09611;
+}
+
+.footer-color {
+    color: #8FABBC;
+}
+
+.footer-color-yellow {
+    color: #C7B56F;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+.section-header {
+    font-weight: 500 ;
+    color: #44565A;
+    font-size: 42px;
+    margin: 40px 0 20px;
+}
+
+.section-text {
+    color: #B2B2AA;
+    font-size: 17px;
+}
+
 /***************** HEADER *****************************/
 #site-header {
     position: relative;
