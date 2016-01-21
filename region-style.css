@@ -111,3 +111,35 @@ h1, p {
     background-color: rgba(192,156,76,0.5);
 }
 
+/*********************** REGION CSS *********************/
+
+#regions > p.yellow-text {
+    font-size: 1.7rem;
+    margin: 20px 0 40px;
+}
+
+#regions .region {
+    margin: 30px 0;
+    background-color: #f5f5f5;
+}
+
+#regions .region:hover {
+    background-color: #C8A108;
+}
+
+#regions .region:hover p.region-text {
+    color: #fff;
+}
+
+#regions .region > div.img-wrapper {
+    padding: 0;
+    background-color: #000;
+    position: relative;
+}
+
+#regions .region > div.img-wrapper > img.region-img {
+    width: 100%;
+    -webkit-transition: opacity 0.3s; /* Safari */
+    transition: opacity 0.3s;
+}
+
