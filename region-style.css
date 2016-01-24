@@ -143,3 +143,33 @@ h1, p {
     transition: opacity 0.3s;
 }
 
+#regions .region:hover > div.img-wrapper > img.region-img {
+    opacity: 0.5;
+}
+
+#regions .region > div.img-wrapper > img.region-logo {
+    opacity: 0;
+    background-size: 17px 30px;
+    width: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    top: 15%;
+    right: 0;
+    -webkit-transition: opacity 0.5s; /* Safari */
+    transition: opacity 0.5s;
+}
+
+#regions .region:hover > div.img-wrapper > img.region-logo {
+    opacity: 0.5;
+}
+
+#regions .region > div.article {
+    padding: 25px;
+}
+
+#regions .region h3 {
+    font-weight: bold;
+    margin: 0 0 20px;
+}
