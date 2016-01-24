@@ -173,3 +173,39 @@ h1, p {
     font-weight: bold;
     margin: 0 0 20px;
 }
+
+#homepage-star-img {
+    width: 35px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.underline {
+    border-bottom: 2px solid #D33E53;
+}
+
+/* Fade */
+
+.hvr-fade {
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active
+#header-navbar .nav.navbar-nav > li {
+    background-color: #CEA311;
+    color: white;
+}
+
+
