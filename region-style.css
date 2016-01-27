@@ -208,4 +208,35 @@ h1, p {
     color: white;
 }
 
+/******************* FOOTER **********************/
 
+#site-footer {
+    position: relative;
+    background-image: url("images/footer.jpg");
+    background-position: center;
+    background-size: 178% auto;
+}
+
+@media (max-width: 768px) {
+    #site-footer {
+        background-size: cover;
+    }
+}
+
+#spacer {
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    #spacer {
+        height: 0;
+    }
+}
+
+#footer-info {
+    background-color: #243444;
+    color: #fff;
+    height: 50%;
+    opacity: 0.9;
+    padding-top: 2%;
+}
