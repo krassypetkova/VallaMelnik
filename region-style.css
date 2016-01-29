@@ -240,3 +240,36 @@ h1, p {
     opacity: 0.9;
     padding-top: 2%;
 }
+
+#site-footer .footer-top-line {
+    height: 3%;
+    background-color: rgba(255,255,255, 0.4);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#site-footer .footer-bottom-line {
+    height: 3%;
+    background-color: rgba(53, 63, 65, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.margin-bottom {
+    margin-bottom: 5px;
+}
+
+.cpy-right {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.acorn-logo {
+    float: right;
+    position: relative;
+    bottom: 11px;
+}
+
+
