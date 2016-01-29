@@ -272,4 +272,28 @@ h1, p {
     bottom: 11px;
 }
 
+div.cpy-right > div.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.cpy-right-p {
+    display: inline-block;
+}
+
+#footer-info .fa {
+    font-size: 18px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+#footer-info  .row > div {
+    padding: 10px 15px;
+}
+
+@media (max-width: 767px) {
+    #footer-info  .row > div {
+        width: 100%;
+    }
+}
 
